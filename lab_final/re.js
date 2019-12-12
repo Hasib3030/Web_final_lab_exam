@@ -6,12 +6,13 @@ function registration()
 	var email = document.getElementById('mail').value;
 	var pass = document.getElementById('password').value;
 	var conPass = document.getElementById('conPass').value;
+	var usert = document.getElementById('usert').value;
 	
 	
 	
 	if(id == "")
 	{
-		alert('Empty id');
+		alert('Empty ID');
 	}
 	
 	
@@ -34,6 +35,11 @@ function registration()
 		}
 	}
 	
+		
+	if(conPass == "")
+	{
+		alert('Empty Confirm Password');
+	}
 	
 	if(name == "")
 	{
@@ -45,6 +51,10 @@ function registration()
 		alert('Empty Email');
 	}
 	
+	if(usert == "")
+	{
+		alert('Empty User Type');
+	}
 	
 	
 	

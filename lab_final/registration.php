@@ -50,7 +50,23 @@
 					<abbr title="hint: hasib3030@gmail.com"><b></b></abbr>
 				</td>
 				<td id="tdEmail"></td>
-			</tr>		
+			</tr>	
+
+           <tr><td colspan="4"><hr/></td></tr>
+               <tr>
+			   <td>User Type (User/Admin)</td>
+			   <td>:</td>
+			   <td>
+            <select name="usert" id="usert">
+            <option value=""></option>
+                
+                <option value="user">user</option>
+                <option value="Admin">Admin</option>
+               
+            </select> <br>
+           
+				</td>	
+            </tr>				
 		
 		</table>
 		<hr/>

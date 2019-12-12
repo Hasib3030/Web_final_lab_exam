@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
+	<title>CHANGE PASSWORD </title>
 </head>
 <body>
 	<center>
 		<form>
 			<fieldset>
-				<legend>Login</legend>
+				<legend>CHANGE PASSWORD</legend>
 				<input type="text" name="username" placeholder="Enter Your Username"><br><br>
 				<input type="text" name="password" placeholder="Enter Your Password"><br><br>
-			   <a href="userpage.php">LOGIN User</a>&nbsp;
-			    <a href="adminhome.php">LOGIN Admin</a> <br>&nbsp;
-                <a href="registration.php">Create Account</a>
+			   <input type="submit" value="Submit" onclick="cpass()">
+                <a href="userpage.php">HOME</a>
 			</fieldset>
 		</form>
 	</center>
